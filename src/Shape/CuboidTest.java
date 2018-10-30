@@ -30,10 +30,10 @@ class CuboidTest{
 	//test setter
 	@Test
 	public void setterTestb() {
-		Cuboid temp = new Cuboid(1,2);
+		Cuboid temp = new Cuboid(5,6,7);
 		temp.setiWidth(5);
 		temp.setiLength(6);
-		temp.setiDepth(7)
+		temp.setiDepth(7);
 		assertEquals(5,temp.getiWidth());
 		assertEquals(6,temp.getiLength());
 		assertEquals(7,temp.getiDepth());
@@ -50,7 +50,7 @@ class CuboidTest{
 	}
 	
 	//to test the perimeter, run this and see console
-	constructorTestb.perimeter();
+	//constructorTestb.perimeter();
 	
 	@Test
 	public void SortByAreaTest() {
